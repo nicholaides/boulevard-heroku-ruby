@@ -1,13 +1,28 @@
+GIT
+  remote: git://github.com/promptworks/boulevard.git
+  revision: 6ab93e00a763d739c858fd75c338539c996a1666
+  branch: rack
+  specs:
+    boulevard (0.1.0)
+      commander (~> 4.0)
+      rack (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    commander (4.4.3)
+      highline (~> 1.7.2)
+    highline (1.7.8)
     rack (2.0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack
+  boulevard!
+
+RUBY VERSION
+   ruby 2.4.0p0
 
 BUNDLED WITH
    1.13.7

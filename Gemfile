@@ -1,2 +1,4 @@
 source 'https://rubygems.org'
-gem 'rack'
+ruby '2.4.0'
+
+gem 'boulevard', github: 'promptworks/boulevard', branch: 'rack'
