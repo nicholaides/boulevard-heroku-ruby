@@ -1,11 +1,12 @@
 GIT
   remote: git://github.com/promptworks/boulevard.git
-  revision: 6ab93e00a763d739c858fd75c338539c996a1666
+  revision: 7cb8223eeb1bf9e8905c0dd61f1a7ba384b990f6
   branch: rack
   specs:
     boulevard (0.1.0)
       commander (~> 4.0)
-      rack (~> 2.0)
+      rack
+      rack-cors
 
 GEM
   remote: https://rubygems.org/
@@ -14,6 +15,7 @@ GEM
       highline (~> 1.7.2)
     highline (1.7.8)
     rack (2.0.1)
+    rack-cors (0.4.0)
 
 PLATFORMS
   ruby
