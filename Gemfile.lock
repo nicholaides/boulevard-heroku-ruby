@@ -1,7 +1,6 @@
 GIT
   remote: git://github.com/promptworks/boulevard.git
-  revision: 7cb8223eeb1bf9e8905c0dd61f1a7ba384b990f6
-  branch: rack
+  revision: ceb890ea05d17d3cc6a23329b6f21eb9a5c5607b
   specs:
     boulevard (0.1.0)
       commander (~> 4.0)
